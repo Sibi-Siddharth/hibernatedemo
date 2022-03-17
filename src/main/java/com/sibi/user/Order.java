@@ -10,6 +10,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 @Entity
 @Table(name = "tbl_order")
+
+// Demo for pull and push
 public class Order {
 	@Id
 	@GeneratedValue
